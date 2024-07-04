@@ -5,15 +5,14 @@ import { buildTheme } from "../infrastructure/theme/theme";
 export default function Home() {
   return (
     <>
-      <ThemeProvider theme={buildTheme()}>
-        <Grid container textAlign={"center"} spacing={1} mt={2}>
-          <Grid item xs={4}>
-            <Typography variant="h1" color="primary">
-              Hola
-            </Typography>
-          </Grid>
+      <Grid container>
+        <Grid item>
+          <Typography>Hola</Typography>
         </Grid>
-      </ThemeProvider>
+        <Grid item >
+          <img src="public/dpl-logo.svg" alt="sdgs" />
+        </Grid>
+      </Grid>
     </>
   );
 }
