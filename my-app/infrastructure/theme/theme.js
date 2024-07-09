@@ -5,6 +5,16 @@ const typography = {
     body1: {
         fontWeight: 400,
     },
+    h0: {
+        fontWeight: 500,
+        fontSize: "2.25rem",
+        lineHeight: "1.5",
+    },
+    h0Bold: {
+        fontWeight: 600,
+        fontSize: "2.25rem",
+        lineHeight: "1.2",
+    },
     h1: {
         fontWeight: 500,
         fontSize: "1.875rem",
@@ -20,8 +30,13 @@ const typography = {
         fontSize: "1.25rem",
         lineHeight: "1.5",
     },
-    h4: {
+    h4Bold: {
         fontWeight: 600,
+        fontSize: "1.125rem",
+        lineHeight: "1.5",
+    },
+    h4: {
+        fontWeight: 500,
         fontSize: "1.125rem",
         lineHeight: "1.5",
     },
@@ -34,7 +49,13 @@ const typography = {
         fontWeight: 400,
         fontSize: "2rem",
         lineHeight: "1.5",
-        fontStyle: "italic",
+    },
+    titleSession: {
+        fontWeight: 600,
+        fontSize: "1.75rem",
+        lineHeight: "1.5",
+        borderBottom: "2px solid #000",
+        
     },
 }
 

@@ -23,17 +23,17 @@ const NavBar = () => {
             <Grid item>
               <Grid container justifyContent="center" spacing={6}>
                 <Grid item>
-                  <Typography variant="h4" color="primary">
+                  <Typography variant="h4Bold" color="primary">
                     Inicio
                   </Typography>
                 </Grid>
                 <Grid item>
-                  <Typography variant="h4" color="primary">
+                  <Typography variant="h4Bold" color="primary">
                     Especialidades
                   </Typography>
                 </Grid>
                 <Grid item>
-                  <Typography variant="h4" color="primary">
+                  <Typography variant="h4Bold" color="primary">
                     Contacto
                   </Typography>
                 </Grid>
