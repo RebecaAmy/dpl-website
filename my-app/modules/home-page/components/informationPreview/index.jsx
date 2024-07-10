@@ -19,8 +19,8 @@ export default function InformationPreview({image, title, description}) {
             border={1}
             mb={4}
             style={{
-              width: "400px",
-              height: "300px",
+              width: "350px",
+              height: "250px",
               overflow: "hidden",
             }}
           >
