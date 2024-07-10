@@ -30,7 +30,7 @@ export default function InformationSection() {
         sx={{ width: "100%" }}
       >
         {Object.entries(information).map(([key, value]) => (
-          <Grid item mb={2} ml={9} mr={9} key={key}>
+          <Grid item mb={2} ml={4} mr={4} key={key}>
             <InformationPreview
               image={value[0]}
               title={value[1]}

@@ -9,23 +9,23 @@ import SpecialitySection from "../../modules/home-page/components/specialitySect
 export default function HomePage() {
   return (
     <>
-      <NavBar></NavBar>
-      <IntroSection></IntroSection>
-      <SpecialitySection></SpecialitySection>
+      <NavBar />
+      <IntroSection />
+      <SpecialitySection />
       <SectionSeparator
         image={"sections/sessionTypes.svg"}
         subtitle={"Tipo de sesiones"}
-      ></SectionSeparator>
-      <SessionTypeSection></SessionTypeSection>
+      />
+      <SessionTypeSection />
       <SectionSeparator
         image={"sections/information.svg"}
         subtitle={"Que puedes encontrar"}
-      ></SectionSeparator>
-      <InformationSection></InformationSection>
+      />
+      <InformationSection />
       <SectionSeparator
         image={"sections/opinions.svg"}
         subtitle={"Conoce sus experiencias"}
-      ></SectionSeparator>
+      />
     </>
   );
 }
