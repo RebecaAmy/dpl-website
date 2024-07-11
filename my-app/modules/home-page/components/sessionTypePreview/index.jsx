@@ -49,7 +49,7 @@ export default function SessionTypePreview({ image, icon, title, description }) 
                   borderRadius: "50%",
                   width: "98%",
                   height: "98%",
-                  backgroundColor: "rgb(221, 242, 226, 0.5)", // Gray color with opacity
+                  backgroundColor: "rgb(221, 242, 226, 0.5)", 
                 }}
               />
             </Grid>
