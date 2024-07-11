@@ -1,7 +1,12 @@
-import MapPreview from "@/modules/home-page/components/mapPreview";
+// import MapPreview from "@/modules/home-page/components/mapPreview";
 import ReviewPreview from "@/modules/home-page/components/reviewPreview";
 import SchedulePreview from "@/modules/home-page/components/schedulePreview";
 import { Grid } from "@mui/material";
+import dynamic from "next/dynamic";
+const MapPreview = dynamic(
+  () => import("@/modules/home-page/components/mapPreview"),
+  { ssr: false }
+);
 
 export default function ReveiwSection() {
   const reviews = {

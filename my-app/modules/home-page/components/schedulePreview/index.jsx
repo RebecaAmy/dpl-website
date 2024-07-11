@@ -1,5 +1,4 @@
 import { Button, Grid, ThemeProvider, Typography } from "@mui/material";
-import ButtonPrimary from "@/modules/home-page/components/button";
 import { buildTheme } from "@/infrastructure/theme/theme";
 
 export default function SchedulePreview() {
