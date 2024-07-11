@@ -30,6 +30,11 @@ const typography = {
         fontSize: "1.25rem",
         lineHeight: "1.5",
     },
+    h3Bold: {
+        fontWeight: 700,
+        fontSize: "1.25rem",
+        lineHeight: "1.5",
+    },
     h4Bold: {
         fontWeight: 600,
         fontSize: "1.125rem",
