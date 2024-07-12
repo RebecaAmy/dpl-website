@@ -11,6 +11,7 @@ import PinterestIcon from "@mui/icons-material/Pinterest";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import ChatIcon from "@mui/icons-material/Chat";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -37,38 +38,45 @@ export default function Footer() {
                   </Typography>
                 </Grid>
                 <Grid item mb={7}>
-                  <DeviceUnknownIcon color="primary" />
+                  <DeviceUnknownIcon color="primary" fontSize="large" />
                 </Grid>
               </Grid>
 
               <Grid item>
-                <Grid container spacing={2} mb={3}>
+                <Grid container alignItems={"center"} spacing={2} mb={3}>
                   <Grid item>
-                    <MailOutlineIcon color="primary" />
+                    <Link
+                      href="mailto:info.dplbarcelona@gmail.com"
+                      target="_blank"
+                    >
+                      <MailOutlineIcon color="primary" />
+                    </Link>
                   </Grid>
                   <Grid item>
                     <Typography variant="h5" color="#77808B">
-                      dpl-info@gmail.com
+                      info.dplbarcelona@gmail.com
                     </Typography>
                   </Grid>
                 </Grid>
-                <Grid container spacing={2} mb={3}>
+                <Grid container alignItems={"center"} spacing={2} mb={3}>
                   <Grid item>
-                    <WhatsAppIcon color="primary" />
+                    <Link href="https://web.whatsapp.com/" target="_blank">
+                      <WhatsAppIcon color="primary" />
+                    </Link>
                   </Grid>
                   <Grid item>
                     <Typography variant="h5" color="#77808B">
-                      55 1234 5678
+                      613 46 22 82
                     </Typography>
                   </Grid>
                 </Grid>
-                <Grid container spacing={2} mb={3}>
+                <Grid container alignItems={"center"} spacing={2} mb={3}>
                   <Grid item>
                     <LocalPhoneIcon color="primary" />
                   </Grid>
                   <Grid item>
                     <Typography variant="h5" color="#77808B">
-                      55 1234 5678
+                      93 130 63 39
                     </Typography>
                   </Grid>
                 </Grid>
@@ -88,11 +96,20 @@ export default function Footer() {
                 </Typography>
               </Grid>
               <Grid item mb={7}>
-                <LocationOnIcon color="primary" />
+                <Link
+                  href="https://maps.app.goo.gl/BTt42ZBDPatfNSJP6"
+                  target="_blank"
+                >
+                  <LocationOnIcon color="primary" fontSize="large" />
+                </Link>
               </Grid>
               <Grid container justifyContent={"center"} textAlign={"center"}>
                 <Grid item mb={1}>
-                  <Typography variant="h5" color="#77808B" sx={{fontWeight: 600}}>
+                  <Typography
+                    variant="h5"
+                    color="#77808B"
+                    sx={{ fontWeight: 600 }}
+                  >
                     Corbera de Llobregat
                   </Typography>
                 </Grid>
@@ -118,20 +135,40 @@ export default function Footer() {
                 </Typography>
               </Grid>
               <Grid item mb={7}>
-                <ChatIcon color="primary" />
+                <ChatIcon color="primary" fontSize="large" />
               </Grid>
               <Grid container justifyContent={"center"} spacing={1}>
                 <Grid item>
-                  <PinterestIcon color="primary" />
+                  <Link
+                    href="https://www.pinterest.es/dplbarcelona"
+                    target="_blank"
+                  >
+                    <PinterestIcon sx={{ fontSize: 30 }} color="primary" />
+                  </Link>
                 </Grid>
                 <Grid item>
-                  <LinkedInIcon color="primary" />
+                  <Link
+                    href="https://www.linkedin.com/company/dplbarcelona/about/"
+                    target="_blank"
+                  >
+                    <LinkedInIcon sx={{ fontSize: 30 }} color="primary" />
+                  </Link>
                 </Grid>
                 <Grid item>
-                  <FacebookIcon color="primary" />
+                  <Link
+                    href="https://www.facebook.com/dplbarcelona/"
+                    target="_blank"
+                  >
+                    <FacebookIcon sx={{ fontSize: 30 }} color="primary" />
+                  </Link>
                 </Grid>
                 <Grid item>
-                  <InstagramIcon color="primary" />
+                  <Link
+                    href="https://www.instagram.com/dplbarcelona/?hl=es"
+                    target="_blank"
+                  >
+                    <InstagramIcon sx={{ fontSize: 30 }} color="primary" />
+                  </Link>
                 </Grid>
               </Grid>
             </Grid>

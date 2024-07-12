@@ -33,7 +33,7 @@ export default function HomePage() {
         image={"sections/colaboration.svg"}
         subtitle={"Colaboraciones"}
       />
-      <Footer></Footer>
+      <Footer />
     </>
   );
 }
