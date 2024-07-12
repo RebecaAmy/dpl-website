@@ -1,6 +1,6 @@
 "use client";
 import { Grid, ThemeProvider, Typography, useTheme } from "@mui/material";
-import { buildTheme } from "../infrastructure/theme/theme";
+import { buildTheme } from "../../infrastructure/theme/theme";
 
 export default function Home() {
   return (
