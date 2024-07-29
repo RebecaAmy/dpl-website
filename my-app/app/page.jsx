@@ -7,6 +7,7 @@ import SectionSeparator from "../modules/home-page/components/sectionSeparator/i
 import SessionTypeSection from "../modules/home-page/components/sessionTypeSection/index";
 import SpecialitySection from "../modules/home-page/components/specialitySection/index";
 import Footer from "../modules/home-page/components/footer/index";
+import ColaborationsSection from "../modules/home-page/components/colaborationsSection/index";
 
 export default function HomePage() {
   return (
@@ -33,6 +34,7 @@ export default function HomePage() {
         image={"sections/colaboration.svg"}
         subtitle={"Colaboraciones"}
       />
+      <ColaborationsSection />
       <Footer />
     </>
   );

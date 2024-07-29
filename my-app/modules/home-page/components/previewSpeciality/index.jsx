@@ -1,7 +1,7 @@
 import { buildTheme } from "@/infrastructure/theme/theme";
 import { Grid, ThemeProvider, Typography } from "@mui/material";
 
-export default function PreviewSpeciality({ title, subtitle }) {
+export default function PreviewSpeciality({ title, subtitle, image }) {
   return (
     <>
       <ThemeProvider theme={buildTheme()}>
@@ -20,7 +20,7 @@ export default function PreviewSpeciality({ title, subtitle }) {
             }}
           >
             <img
-              src="logopedia.png"
+              src={image}
               alt="im1"
               style={{
                 width: "100%",
