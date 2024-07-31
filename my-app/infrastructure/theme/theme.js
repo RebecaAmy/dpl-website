@@ -50,6 +50,11 @@ const typography = {
         fontSize: "1rem",
         lineHeight: "1.5",
     },
+    h6: {
+        fontWeight: 500,
+        fontSize: "0.875rem",
+        lineHeight: "1.5",
+    },
     quote: {
         fontWeight: 400,
         fontSize: "2rem",
