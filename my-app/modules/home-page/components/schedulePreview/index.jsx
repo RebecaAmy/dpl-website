@@ -36,7 +36,7 @@ export default function SchedulePreview() {
                 </Typography>
               </Grid>
               <Grid item>
-                <Typography variant="h4Bold">8:00 am - 19:00 pm</Typography>
+                <Typography variant="h4Bold">8:00 am - 21:00 pm</Typography>
               </Grid>
             </Grid>
 
