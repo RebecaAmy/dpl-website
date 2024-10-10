@@ -27,11 +27,11 @@ export default function ReveiwSection() {
       false,
     ],
     3: [
-      "reviews/partickRuiz.svg",
-      "Patrick Ruiz",
-      "Sin duda, de los mejores profesionales en corbera, me dedicaron el tiempo y la paciencia para entender mi caso y posteriormente me acompañaron en el proceso. Los recomiendo",
+      "reviews/aleixSanchez.png",
+      "Aleix Sánchez",
+      "¡Qué gran servicio y gran labor! Muy buen trato con los pacientes y sobre todo, lo que te transmiten. Lo recomiendo 100%.",
       5,
-      "100%",
+      "120%",
       false,
     ],
   };

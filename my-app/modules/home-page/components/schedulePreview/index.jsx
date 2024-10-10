@@ -1,7 +1,14 @@
 import { Button, Grid, ThemeProvider, Typography } from "@mui/material";
 import { buildTheme } from "@/infrastructure/theme/theme";
+import { on } from "events";
 
 export default function SchedulePreview() {
+  const onClick = () => {
+    window.open(
+      "https://wa.me/34613462282?text=Hola!%20Me%20gustaría%20reservar%20una%20consulta.",
+      "_blank"
+    );
+  };
   return (
     <>
       <ThemeProvider theme={buildTheme()}>
@@ -62,7 +69,7 @@ export default function SchedulePreview() {
                 fontWeight: "600",
               }}
               color="primary"
-              // onClick={onClick}
+              onClick={onClick}
               variant="contained"
             >
               Contactar

@@ -60,7 +60,10 @@ export default function Footer() {
                 </Grid>
                 <Grid container alignItems={"center"} spacing={2} mb={3}>
                   <Grid item>
-                    <Link href="https://web.whatsapp.com/" target="_blank">
+                    <Link
+                      href="https://wa.me/34613462282?text=Hola!%20Me%20gustaría%20reservar%20una%20consulta."
+                      target="_blank"
+                    >
                       <WhatsAppIcon color="primary" />
                     </Link>
                   </Grid>

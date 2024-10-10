@@ -15,7 +15,8 @@ if (typeof window !== "undefined") {
 }
 
 export default function MapPreview() {
-  const position = [41.416067, 1.931595];
+  const position = [41.416067, 1.931480];
+  // 41°24'57.8"N 1°55'53.4"E
 
   return (
     <>
