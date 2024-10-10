@@ -19,7 +19,7 @@ export default function SessionTypeSection() {
       "sessionType/online.svg",
       "sessionType/online-icon.svg",
       "Online",
-      "Servicio personalizado que lleva la terapia directamente al hogar, proporcionando comodidad y privacidad.",
+      "Intervenciones terapéuticas a través de plataformas digitales, ofreciendo flexibilidad y accesibilidad desde cualquier lugar",
     ],
     Home: [
       "sessionType/home.svg",

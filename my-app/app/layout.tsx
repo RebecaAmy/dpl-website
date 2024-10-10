@@ -7,16 +7,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "DPLBarcelona",
   description: "Centro de Logopedia ",
-  openGraph: {
-    images: [
-      {
-        url: '/DPL-logo-black.svg',
-        width: 1200,
-        height: 630,
-        alt: 'DPL Barcelona Image',
-      },
-    ],
+  icons: {
+    icon: '/favicon.png',
   },
+
 
 };
 
