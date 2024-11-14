@@ -14,7 +14,26 @@ const IntroSection = () => {
             style={{
               width: "100%",
               height: "auto",
-              filter: "brightness(65%)",
+              // filter: "brightness(85%)",
+            }}
+          />
+          {/* Gradient Overlay */}
+          <Grid
+            item
+            sx={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
+
+              background:
+                "linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%,    \
+                                            rgba(0, 0, 0, 0.5) 22%, \
+                                            rgba(0, 0, 0, 0.5) 82%, \
+                                            rgba(0, 0, 0, 0) 100%)",
+              pointerEvents: "none",
+              pointerEvents: "none",
             }}
           />
           <Grid
@@ -31,7 +50,7 @@ const IntroSection = () => {
           >
             <Grid item>
               <img
-                src="/dpl-logo.svg"
+                src="/DPL-white-bg.svg"
                 alt="left"
                 style={{
                   maxWidth: "253px",

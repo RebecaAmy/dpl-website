@@ -59,6 +59,8 @@ const typography = {
         fontWeight: 400,
         fontSize: "2rem",
         lineHeight: "1.5",
+        fontStyle: "italic",
+        
     },
     titleSession: {
         fontWeight: 600,

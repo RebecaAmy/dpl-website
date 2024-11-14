@@ -19,7 +19,7 @@ export default function SessionTypeSection() {
       "sessionType/online.svg",
       "sessionType/online-icon.svg",
       "Online",
-      "Intervenciones terapéuticas a través de plataformas digitales, ofreciendo flexibilidad y accesibilidad desde cualquier lugar",
+      "Intervenciones terapéuticas a través de plataformas digitales, ofreciendo flexibilidad y accesibilidad desde cualquier lugar.",
     ],
     Home: [
       "sessionType/home.svg",
