@@ -39,13 +39,29 @@ export default function ReveiwSection() {
   return (
     <>
       <Grid container mb={10}>
-        <Grid item xs={5} container direction={"column"} alignItems={"center"}>
+        <Grid
+          item
+          xs={12}
+          sm={5}
+          container
+          direction={"column"}
+          alignItems={"center"}
+        >
           <MapPreview></MapPreview>
           <Grid item mt={4}>
             <SchedulePreview></SchedulePreview>
           </Grid>
         </Grid>
-        <Grid item xs={7} container direction={"column"} alignItems={"center"}>
+        <Grid
+          item
+          xs={12}
+          sm={7}
+          container
+          direction={"column"}
+          alignItems={"center"}
+          sx={{ mt: { xs: 2
+          , sm: 0 } }}
+        >
           {Object.keys(reviews).map(([key]) => (
             <Grid item mt={4} key={key}>
               <ReviewPreview

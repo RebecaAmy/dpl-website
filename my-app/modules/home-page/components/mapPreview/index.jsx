@@ -25,8 +25,14 @@ export default function MapPreview() {
         justifyContent="center"
         alignItems="center"
         borderRadius={5}
-        ml={4}
-        style={{ overflow: "hidden", height: "400px", width: "90%" }}
+       
+        sx={{
+          overflow: "hidden",
+          height: { xs: "300px", sm: "400px" }, 
+          width: "90%", 
+          ml: { xs: 2, sm: 4 }, 
+          mr: { xs: 2, sm: 0 }, 
+        }}
       >
         <Paper
           elevation={3}

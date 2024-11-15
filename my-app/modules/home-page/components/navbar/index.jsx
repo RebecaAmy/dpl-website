@@ -74,17 +74,22 @@ const NavBar = () => {
                 </StyledLink>
               </Grid>
               <Grid item container sm={4} xs={4} justifyContent={"center"}>
-                <Grid item mr={1}>
-                  <LocalPhoneIcon
-                    color="primary"
-                    sx={{ fontSize: { xs: 30, sm: 30 } }}
-                  />
-                </Grid>
-                <Grid item sx={{ display: { xs: "none", sm: "block" } }}>
-                  <Typography variant="h4Bold" color="primary">
-                    93 130 63 39
-                  </Typography>
-                </Grid>
+                <StyledLink
+                  href="tel:+34931306339" 
+                  target="_blank"
+                >
+                  <Grid item mr={1}>
+                    <LocalPhoneIcon
+                      color="primary"
+                      sx={{ fontSize: { xs: 30, sm: 30 } }}
+                    />
+                  </Grid>
+                  <Grid item sx={{ display: { xs: "none", sm: "block" } }}>
+                    <Typography variant="h4Bold" color="primary">
+                      93 130 63 39
+                    </Typography>
+                  </Grid>
+                </StyledLink>
               </Grid>
             </Grid>
           </Grid>

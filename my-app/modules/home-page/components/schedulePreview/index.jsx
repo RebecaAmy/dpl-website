@@ -17,13 +17,12 @@ export default function SchedulePreview() {
           xs={11}
           container
           m={"auto"}
-          ml={5}
           border={2}
           borderColor={"#3E8E80"}
           borderRadius={5}
           alignItems={"center"}
           justifyContent={"center"}
-          sx={{ backgroundColor: "#CAD7CD" }}
+          sx={{ backgroundColor: "#CAD7CD", ml: { xs: 2, sm: 5 } }}
         >
           <Grid item margin={4} mt={5} textAlign={"center"}>
             <Typography variant="h0Bold" color={"primary"}>
@@ -53,7 +52,7 @@ export default function SchedulePreview() {
                   Sábado
                 </Typography>
               </Grid>
-              <Grid item>
+              <Grid item sx={{ mt: { xs: 4, sm: 0 } }}>
                 <Typography variant="h4Bold">9:00 am - 15:00 pm</Typography>
               </Grid>
             </Grid>

@@ -1,5 +1,5 @@
 import { ThemeProvider } from "@emotion/react";
-import { Grid, Typography } from "@mui/material";
+import { Divider, Grid, Typography } from "@mui/material";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
@@ -21,7 +21,8 @@ export default function Footer() {
           <Grid container mt={7} mb={4}>
             <Grid
               item
-              xs={4}
+              xs={12}
+              sm={4}
               container
               direction={"column"}
               alignItems={"center"}
@@ -32,18 +33,30 @@ export default function Footer() {
                 alignContent={"center"}
                 alignItems={"center"}
               >
-                <Grid item mb={1}>
+                <Grid item sx={{ mb: { xs: 3, sm: 1 }, mt: { xs: 2, sm: 0 } }}>
                   <Typography variant="h4Bold" color="primary">
                     CONTACTO
                   </Typography>
                 </Grid>
-                <Grid item mb={7}>
+                <Grid item sx={{ mb: { xs: 3, sm: 7 } }}>
+                  {/* <Divider
+                    orientation="horizontal"
+                    position="relative"
+                    height="50%"
+                    width="200%"
+                    sx={{
+                      top: "75%",
+                      borderWidth: 2,
+                      borderColor: "#3E8E80",
+                      zIndex: 0,
+                    }}
+                  /> */}
                   <DeviceUnknownIcon color="primary" fontSize="large" />
                 </Grid>
               </Grid>
 
               <Grid item>
-                <Grid container alignItems={"center"} spacing={2} mb={3}>
+                <Grid container alignItems={"center"} spacing={2} mb={3} sx={{justifyContent:{xs:"center", sm:"left "}}}>
                   <Grid item>
                     <Link
                       href="mailto:info.dplbarcelona@gmail.com"
@@ -58,7 +71,7 @@ export default function Footer() {
                     </Typography>
                   </Grid>
                 </Grid>
-                <Grid container alignItems={"center"} spacing={2} mb={3}>
+                <Grid container alignItems={"center"} spacing={2} mb={3} sx={{justifyContent:{xs:"center", sm:"left "}}}>
                   <Grid item>
                     <Link
                       href="https://wa.me/34613462282?text=Hola!%20Me%20gustaría%20reservar%20una%20consulta."
@@ -73,7 +86,7 @@ export default function Footer() {
                     </Typography>
                   </Grid>
                 </Grid>
-                <Grid container alignItems={"center"} spacing={2} mb={3}>
+                <Grid container alignItems={"center"} spacing={2} sx={{justifyContent:{xs:"center", sm:"left "}}}>
                   <Grid item>
                     <LocalPhoneIcon color="primary" />
                   </Grid>
@@ -88,17 +101,18 @@ export default function Footer() {
 
             <Grid
               item
-              xs={4}
+              xs={12}
+              sm={4}
               container
               direction={"column"}
               alignItems={"center"}
             >
-              <Grid item mb={1}>
+              <Grid item sx={{ mb: { xs: 3, sm: 1 }, mt: { xs: 2, sm: 0 } }}>
                 <Typography variant="h4Bold" color="primary">
                   UBICACIÓN
                 </Typography>
               </Grid>
-              <Grid item mb={7}>
+              <Grid item sx={{ mb: { xs: 3, sm: 7 } }}>
                 <Link
                   href="https://maps.app.goo.gl/BTt42ZBDPatfNSJP6"
                   target="_blank"
@@ -126,18 +140,19 @@ export default function Footer() {
 
             <Grid
               item
-              xs={4}
+              xs={12}
+              sm={4}
               container
               direction={"column"}
               alignItems={"center"}
               textAlign={"center"}
             >
-              <Grid item mb={1}>
+              <Grid item sx={{ mb: { xs: 3, sm: 1 }, mt: { xs: 2, sm: 0 } }}>
                 <Typography variant="h4Bold" color="primary">
                   REDES SOCIALES
                 </Typography>
               </Grid>
-              <Grid item mb={7}>
+              <Grid item sx={{ mb: { xs: 3, sm: 7 } }}>
                 <ChatIcon color="primary" fontSize="large" />
               </Grid>
               <Grid container justifyContent={"center"} spacing={1}>

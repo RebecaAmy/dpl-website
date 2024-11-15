@@ -18,7 +18,16 @@ export default function ReviewPreview({
   return (
     <>
       <ThemeProvider theme={buildTheme()}>
-        <Grid container spacing={0} pr={8} mb={0}>
+        <Grid
+          container
+          spacing={0}
+          mb={0}
+          sx={{
+            paddingRight: { xs: 2, sm: 8 },
+            paddingLeft: { xs: 2 },
+            // mt: { xs: 2 },
+          }}
+        >
           <Grid
             item
             xs={4}
