@@ -4,20 +4,27 @@ import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 
 const IntroSection = () => {
+  console.log(buildTheme());
   return (
     <ThemeProvider theme={buildTheme()}>
-      <Grid container sx={{ position: "relative", textAlign: "center" }}>
+      <Grid
+        container
+        sx={{
+          position: "relative",
+          textAlign: "center",
+        }}
+      >
         <Grid item xs={12}>
           <img
             src="/office.svg"
             alt="office"
             style={{
               width: "100%",
-              height: "auto",
-              // filter: "brightness(85%)",
+              height: "400px",
+              objectFit: "cover",
+              objectPosition: "center",
             }}
           />
-          {/* Gradient Overlay */}
           <Grid
             item
             sx={{
@@ -48,18 +55,25 @@ const IntroSection = () => {
               width: "100%",
             }}
           >
-            <Grid item>
+            <Grid
+              item
+              sm={3}
+              sx={{
+                display: { xs: "none", sm: "flex" },
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
               <img
                 src="/DPL-white-bg.svg"
                 alt="left"
                 style={{
                   maxWidth: "253px",
-                  marginRight: "253px",
                 }}
               />
             </Grid>
-            <Grid item sx={{ maxWidth: "625px" }}>
-              <Typography variant="quote" color="#fff">
+            <Grid item sm={9} paddingLeft={3} paddingRight={5}>
+              <Typography variant="subtitle1" color="#fff">
                 Tal como sabemos, la educación de nuestros hijos es nuestro
                 mejor legado; entonces, ¿por qué no proporcionarles las mejores
                 herramientas para potenciar su aprendizaje?
